@@ -1,6 +1,6 @@
 {
   "name": "@outpave/outpave-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Loads the embedded card viewer and document upload components into your page, with TypeScript types.",
   "license": "MIT",
   "repository": {

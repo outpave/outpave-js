@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Published from GitHub Actions with provenance. No code changes.
+
 ## 0.1.0
 
 - Published as `@outpave/outpave-js`. It replaces the unscoped `outpave-js` 0.1.0, which has the same contents.
