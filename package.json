@@ -1,0 +1,48 @@
+{
+  "name": "outpave-js",
+  "version": "0.1.0",
+  "description": "Loads the embedded card viewer and document upload components into your page, with TypeScript types.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/outpave/outpave-js.git"
+  },
+  "bugs": "https://github.com/outpave/outpave-js/issues",
+  "keywords": [
+    "card viewer",
+    "document upload",
+    "embedded components"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.ts",
+        "default": "./dist/cjs/index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/cjs/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.3",
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
+  }
+}
