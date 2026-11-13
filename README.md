@@ -1,4 +1,4 @@
-# outpave-js
+# @outpave/outpave-js
 
 Loads the embedded components, the card viewer and document upload, into your page, with TypeScript types.
 
@@ -7,13 +7,13 @@ The package adds your platform's hosted loader to the page and returns its SDK. 
 ## Install
 
 ```bash
-npm install outpave-js
+npm install @outpave/outpave-js
 ```
 
 ## Load the SDK
 
 ```ts
-import { loadEmbedded } from "outpave-js";
+import { loadEmbedded } from "@outpave/outpave-js";
 
 const embedded = await loadEmbedded({
   loaderUrl: "https://APP_HOST/embedded/v1/loader.js",
