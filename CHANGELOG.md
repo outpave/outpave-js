@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- The license names Outpave Incorporated as the copyright holder. No code changes.
+
 ## 0.1.1
 
 - Published from GitHub Actions with provenance. No code changes.
