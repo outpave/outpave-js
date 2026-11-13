@@ -1,0 +1,14 @@
+{
+  "name": "card-viewer-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js"
+  },
+  "dependencies": {
+    "@outpave/outpave-js": "0.1.1"
+  },
+  "engines": {
+    "node": ">=22.9"
+  }
+}
